@@ -7,4 +7,4 @@ import { IOptions } from "./options";
  * @param callback Callback function called with any error that occurred as
  *                 well as the new IP address if the request succeeded.
  */
-export declare function update(options: IOptions, callback: (err?: Error, newIp?: string) => void): void;
+export declare function update(options: IOptions, callback: (err?: Error, newIp?: string, recordName?: string, zoneName?: string) => void): void;
